@@ -1,0 +1,1 @@
+This repository is for the Spring 2021 section of Advanced Creative Coding at NYU's Integrated Digital Media program.
