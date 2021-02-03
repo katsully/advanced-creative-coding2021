@@ -2,15 +2,22 @@ var myParticles = [];
 
 function setup() {
   createCanvas(1000, 1000);
+  var cButton = select('#clear_button');
+  cButton.mousePressed(clearParticles());
 }
 
 function draw() {
   background(220);
 
   for(var i=0; i < myParticles; i++){
-    myParticles[i].moveIt();
+    myParticles[i].move;
     myParticles[i].render()
   }
+
+}
+
+function clearParticles(){
+  myParticles = [];
 }
 
 function mouseDragged() {
