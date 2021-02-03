@@ -19,13 +19,13 @@
 
 3. Install VS Code by clicking in the upper right corner as shown below
 
-   ![Step1](step1_LI.jpg)
+   ![Step1](images/step1_LI.jpg)
 
 4. Once VS Code is installed repeat step 1 and 2
 
 5. Click install as shown below
 
-   ![Step 2](step2_LI.jpg)
+   ![Step 2](images/step2_LI.jpg)
 
 6. Follow the instructions from the link in step 1 To create a new p5 project
 
@@ -41,7 +41,7 @@
 
 4. Click install as shown in the image below
 
-   ![Step 2](step2_LI.jpg)
+   ![Step 2](images/step2_LI.jpg)
 
 5. Follow the instructions from the link in step 1 To create a new p5 project
 
