@@ -7,7 +7,7 @@
 3. Type BrowserSync and hit Enter
 4. Now you should have a BrowserSync menu on Sublime. You can now choose your index.html file as your Start File and then select Launch.
 
-(Warning - there is a documented bug wit BrowserSync and Macs)
+(Warning - there is a documented bug with BrowserSync and Macs)
 
 ### Visual Studio Code
 
