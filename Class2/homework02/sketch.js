@@ -1,43 +1,36 @@
-// global variable
 var myParticles = [];
 
 function setup() {
   createCanvas(1000, 1000);
   var cButton = select('#clear_button');
 
-  // callback - we NOT executing a function
-  // we want to pass the function definition
-  cButton.mousePressed(clearParticles);
+  cButton.mousePressed(clearParticles());
 
 }
 
 function draw() {
   background(220);
 
-  for(var i=0; i < myParticles.length; i++){
-    //if we want to execute a function, we include ()
-    myParticles[i].move();
+  for(var i=0; i < myParticles; i++){
+    myParticles[i].move;
     myParticles[i].render();
   }
 
 }
 
 function clearParticles(){
-  // taking the array and 'emptying'
   myParticles = [];
 }
 
 function mouseDragged() {
-  // mouseX and mouseY are RESERVED words
-  // p5 already knows about them
   var tempParticle = new Particle(mouseX,mouseY);
   myParticles.push(tempParticle);
 }
 
 class Particle {
   constructor(mX,mY) {
-    this.x = mX;
-    this.y = mY;
+    this.x = x;
+    this.y = y;
     this.speedX = random(-3,3);
     this.speedY = random(-3,3);
     this.col = color(random(255), random(255), random(255));
@@ -60,6 +53,6 @@ class Particle {
   render() {
     noStroke();
     fill(this.col);
-    ellipse(this.x, this.y, this.diameter, this.diameter);
+    ellipse(x, y, this.diameter, this.diameter);
   }
 }
