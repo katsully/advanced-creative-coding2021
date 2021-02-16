@@ -6,8 +6,31 @@
 
 But proceed with caution... Just because a company has an API today, doesn't mean it will be available tomorrow. For example, a major component of my graduate final was based on gathering public data from Facebook's API, however on the morning of my final, Facebook changed their API and you could no longer query public data.
 
+**Not all APIs are created equally**
+
+Some are clearly documented and feature lots of examples, some you are basically on your own. 
+
+Some you can start using instantly, and others require a process called authentication (more on this later)
+
 ### Query Strings
 
 Let's look at the following url: https://www.example.com/widgets?color=blue&sort=newest
 
 Look at everything to the right of the ?, those are referred to as query strings. In this case we have two key:value pairs --> color: blue and sort:newest. Query strings are extremely important when talking about APIs.
+
+
+
+### Requests
+
+We interact with APIs by using requests. Two types of requests we'll use in this class are
+
+- A **get ** request reads information
+  - Get the wind speed in Denver, CO
+  - Get every tweet mentioning a certain hashtag
+  - Get all the buildings in New York City with a recently malfunctioned elevator
+- A **post** request creates new information
+  - Post a new tweet from your bot account
+  - Post a Signal text 
+
+
+
