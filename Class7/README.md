@@ -1,4 +1,39 @@
-# Class 7 - APIs	
+# Class 7 - JSON & APIs	
+
+### JSON
+
+**J**ava**S**cript **O**bject **N**otation - it's 'easy' to read and write for humans (that's debatable) and it's very easy for machines to parse and generate.
+
+JSON text format is the same regardless of if you're using P5, Processing, Cinder, Python, or any other language.
+
+An example of JSON: 
+
+```
+{
+   "eBooks":[
+      {
+         "language":"Pascal",
+         "edition":"third"
+      },
+      {
+         "language":"Python",
+         "edition":"four"
+      },
+      {
+         "language":"SQL",
+         "edition":"second"
+      }
+   ]
+}
+```
+
+Let's say we load this JSON to our p5 sketch and call it 'books'
+
+books.eBooks[0].language ---> "Pascal"
+
+books.eBooks[2].edition ----> "second"
+
+
 
 ### API
 
