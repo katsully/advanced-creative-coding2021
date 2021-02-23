@@ -16,10 +16,6 @@ function setup() {
   sizeOfSquare = width / numOfSquaresAcross;
 }
 
-function startStopAnimation(){
-  doingAnimation = !doingAnimation;
-}
-
 function draw() {
   background(220);
 
