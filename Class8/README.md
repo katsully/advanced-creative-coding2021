@@ -59,7 +59,7 @@ Look at everything to the right of the ?, those are referred to as query strings
 
 We interact with APIs by using requests. Two types of requests we'll use in this class are
 
-- A **get ** request reads information
+- A **get** request reads information
   - Get the wind speed in Denver, CO
   - Get every tweet mentioning a certain hashtag
   - Get all the buildings in New York City with a recently malfunctioned elevator
