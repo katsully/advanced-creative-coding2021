@@ -1,0 +1,25 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "I am trying a Twitter Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsully/node-demo.git"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Kat Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsully/node-demo/issues"
+  },
+  "homepage": "https://github.com/katsully/node-demo#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
