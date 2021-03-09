@@ -26,6 +26,7 @@ setInterval(botTweet, 60*5*1000);
 
 function botTweet(error, data, response){
 
+  // very similar to loadJSON
   request(url, gotData);
 
   // update for next time
@@ -41,6 +42,7 @@ function botTweet(error, data, response){
     // images folder
     // we define the download function below
     // two parameters - 1. url 2. filename
+    // i created an images folder ahead of time
     download(comic_data.img, 'images/comic' + comicNum + '.png');
 
     // two parameters - the url containing the image, and a filename to save the image
