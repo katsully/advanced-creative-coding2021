@@ -1,0 +1,17 @@
+{
+  "name": "class21_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bayes": "^1.0.0",
+    "fs": "0.0.1-security",
+    "stopword": "^1.0.7",
+    "twit": "^2.2.11"
+  }
+}
