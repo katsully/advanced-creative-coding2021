@@ -4,7 +4,7 @@ So what happens when we go to a website?
 
 A client (ie your computer or phone) makes a request to a server (a different computer or computer program)
 
-​	When you go to google.com, your computer makes a request to the Google server
+When you go to google.com, your computer makes a request to the Google server
 
 **Hyper Text Transfer Protocol** is the language that clients and servers use to communicate to one another.
 
