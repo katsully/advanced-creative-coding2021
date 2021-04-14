@@ -45,7 +45,7 @@ function newConnection(socket){
 
         var category = await awesome_classifier.categorize(ml_ready_data);
         // broadcast.emit - send it everyone but the messenger
-        // .emit - send it to everyone, including the messenger
+        // .emit - send it to just the messenger
         socket.emit('guess', category);
     }
 }
