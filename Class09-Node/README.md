@@ -53,8 +53,8 @@ Node also has libraries, called packages. To handle the packages, we use the Nod
 
 Twitter API is different from the APIs in the last class because it requires OAuth
 
-​	You need keys, tokens, and secrets...oh my!
+You need keys, tokens, and secrets...oh my!
 
-​    Cannot be done with just the browser....you need a server
+Cannot be done with just the browser....you need a server
 
-​    The server talks to Twitter and gives Twitter your tokens
+The server talks to Twitter and gives Twitter your tokens
