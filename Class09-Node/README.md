@@ -30,7 +30,7 @@ Node.js is backend programming
 
 In simplest form, Node.js allows you to run JavaScript files without a text editor package like BrowserSync or Live Server
 
-​	Can run JavaScript directly from the command line
+Can run JavaScript directly from the command line
 
 Node is a JavaScript framework for writing custom servers
 
