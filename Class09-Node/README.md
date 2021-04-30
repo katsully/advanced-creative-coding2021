@@ -4,7 +4,7 @@ So what happens when we go to a website?
 
 A client (ie your computer or phone) makes a request to a server (a different computer or computer program)
 
-​	When you go to google.com, your computer makes a request to the Google server
+When you go to google.com, your computer makes a request to the Google server
 
 **Hyper Text Transfer Protocol** is the language that clients and servers use to communicate to one another.
 
@@ -30,7 +30,7 @@ Node.js is backend programming
 
 In simplest form, Node.js allows you to run JavaScript files without a text editor package like BrowserSync or Live Server
 
-​	Can run JavaScript directly from the command line
+Can run JavaScript directly from the command line
 
 Node is a JavaScript framework for writing custom servers
 
@@ -53,8 +53,8 @@ Node also has libraries, called packages. To handle the packages, we use the Nod
 
 Twitter API is different from the APIs in the last class because it requires OAuth
 
-​	You need keys, tokens, and secrets...oh my!
+You need keys, tokens, and secrets...oh my!
 
-​    Cannot be done with just the browser....you need a server
+Cannot be done with just the browser....you need a server
 
-​    The server talks to Twitter and gives Twitter your tokens
+The server talks to Twitter and gives Twitter your tokens
