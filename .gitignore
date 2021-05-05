@@ -16,3 +16,5 @@ config.js
 node-example/*.png
 
 classifier.json
+
+*.db
